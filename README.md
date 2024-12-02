@@ -16,6 +16,8 @@ The program uses the Chain of Responsibility (CoR) design pattern for the conver
 - User input validation to ensure correct conversions.
 - Dynamic GUI layout for a professional look and usability.
 
+##Java Version
+Java 1.8 is required
 
 ## How to Run
 To run the Program there are 2 ways
@@ -23,11 +25,11 @@ To run the Program there are 2 ways
 1)
 - Compile all the java files using
 
-javac -d com/lengthConverter/cor/*.java com/lengthConverter/cor/handler/*.java
+javac com\lengthConverter\cor\handler\*.java com\lengthConverter\cor\gui\*.java com\lengthConverter\cor\Main\*.java com\lengthConverter\cor\model\*.java
 
 - Now run the main java file
 
-java -cp com/lengthConverter/cor/Main/LengthConverterMain.java
+java com.lengthConverter.cor.Main.LengthConverterMain
 
 2)
 - Run LengthConverterMain.java in eclipse or any other IDE, this java file present in package com.lengthConverter.cor.Main
